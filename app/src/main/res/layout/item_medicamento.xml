@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtMedicamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicamento"
+            android:textAlignment="viewStart"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtPadecimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Padecimiento"
+            android:textAlignment="viewStart"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/Instrucciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instrucciones"
+            android:textAlignment="viewStart"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/Fechaconsulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha de Consulta" />
+
+        <TextView
+            android:id="@+id/empezaratomar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Empezar a Tomar" />
+
+        <TextView
+            android:id="@+id/DejardeTomar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dejar de Tomar" />
+
+        <TextView
+            android:id="@+id/txtVigencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vigencia" />
+
+    </LinearLayout>
+</LinearLayout>
